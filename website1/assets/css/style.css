@@ -1,3 +1,23 @@
-body{
+body {
     background: #BDBDBD;
+}
+
+.jumbotron {
+    position: relative;
+}
+
+#tagline-text1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(254,254,254,0.65);
+}
+
+#tagline-text2 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(254,254,254,0.65);
 }

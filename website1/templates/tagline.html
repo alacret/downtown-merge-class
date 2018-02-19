@@ -1,10 +1,19 @@
-<!-- your html code here -->
-        <!-- Page Content -->
-        <div id="tagline">
-            <div class="container justified-content">
-            <!-- Full Width Image Header -->
-                <img src="assets/img/bg.jpg" style="width:100%;">
-              	<div class="centered"><h1>One Page Wonder</h1><h3>Will Knock Your Socks Off</h3></div>
-            </div>
-        </div>
-        <!-- /.container -->
+<!-- your html code here --b
+<!-- Page Content -->
+<!-- Method 1 Image in Stylesheet -- failed! -->
+
+<!-- Method 2 Image via Jumbotron -->
+<!-- Full Width Image Header -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container-fluid" style="padding: 0px;">
+    <img src="assets/img/bg.jpg" style="width:100%; z-index: -1;">
+    <!-- Text Overlay -->
+    <div id="tagline-text1">
+      <p class="text-center h1" style="margin-top: 0px !important; margin-bottom: 0px !important;">One Page Wonder</p>
+    </div>
+    <div id="tagline-text2">
+      <p class="text-center h1" style="margin-top: -10px !important; margin-bottom: 0px !important;"><small>Will Knock Your Socks Off</small></p>
+    </div>
+  </div>
+</div>
+<!-- /.container -->
